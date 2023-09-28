@@ -1,0 +1,50 @@
+@import "./header.css";
+
+.inicio {
+  background-image: url("../assets/background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+.inicio h1 {
+  font-size: 70px;
+}
+
+.inicio h1,
+.inicio p {
+  color: white;
+}
+
+.background {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.botones {
+  margin: 40px 0;
+}
+.botones a {
+  background-color: white;
+  border: none;
+  padding: 15px 35px;
+  margin: 0 10px;
+  border-radius: 25px;
+  color: #4b2900;
+  font-size: 16px;
+  transition: 0.5s all;
+  text-decoration: none;
+}
+.botones a:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #4b2900;
+}

@@ -1,0 +1,41 @@
+@import "./header.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.acercade {
+  display: flex;
+  flex-direction: row;
+}
+.imagen {
+  object-fit: cover;
+  width: 45%;
+}
+.contenedor-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  width: 55%;
+  height: 100vh;
+  color: white;
+  padding: 40px;
+}
+.contenedor-texto h1 {
+  text-align: start;
+  font-size: 50px;
+  width: 80%;
+  margin: 0 auto;
+}
+.contenedor-texto p {
+  text-align: justify;
+  width: 80%;
+  margin: 30px auto;
+  font-size: 19px;
+}
+
+.texto {
+  margin: 40px 0;
+}

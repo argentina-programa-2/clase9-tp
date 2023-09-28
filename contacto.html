@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contactános - ☕</title>
+    <link rel="stylesheet" href="./estilos/contacto.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html" class="logo">
+        <img src="./assets/logoo.png" alt="Logo de la pagina" />
+        <h1>Starcups</h1>
+      </a>
+      <div class="menu">
+        <a href="index.html" class="menu-item animate__animated animate__fadeIn"
+          >Inicio</a
+        >
+        <a
+          href="acercade.html"
+          class="menu-item animate__animated animate__fadeIn"
+          >Acerca de</a
+        >
+        <a
+          href="contacto.html"
+          class="menu-item animate__animated animate__fadeIn"
+          >Contacto</a
+        >
+      </div>
+    </header>
+    <main class="contacto">
+      <div class="background">
+        <h2 class="animate__animated animate__fadeInDown">Contactanos!</h2>
+        <p class="animate__animated animate__fadeIn">
+          Te gusta lo que ofrecemos? Dejanos tus dudas en el siguiente
+          formulario y responderemos a la brevedad tus inquietudes.
+        </p>
+        <form class="form" action="enviado.php" method="post">
+          <div class="input">
+            <label class="form_label" for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="form_input"
+              required
+            />
+          </div>
+          <div class="input">
+            <label class="form_label" for="asunto">Asunto</label>
+            <input
+              type="text"
+              name="asunto"
+              id="asunto"
+              class="form_input"
+              required
+            />
+          </div>
+          <div class="input">
+            <label class="form_label" for="consulta">Consulta</label>
+            <textarea
+              type="text"
+              name="consulta"
+              id="consulta"
+              class="form_input"
+              required
+            ></textarea>
+          </div>
+          <button class="button" type="submit">Enviar</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
